@@ -36,7 +36,7 @@ while True:
         
             type = ('веб'.lower() in text_lower) and not ('Юниоры'.lower()  in text_lower)
 
-            logging.info(f'Get item: | {text} | {datetime.now()}')
+            
 
             if type:
                 logging.info(f'SEARCH ITEM SUCCESS | {datetime.now()}')
